@@ -157,18 +157,16 @@ body {
 }
 
 .perfil-usuario {
-  position: fixed;
-  top: 20px;
-  right: 20px;
   width: 180px;
+  margin: 0 auto 40px auto;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 15px;
   border-radius: 10px;
   color: white;
   font-family: 'Minecraftia', sans-serif;
-  z-index: 20;
   text-align: center;
 }
+
 
 .foto-perfil {
   width: 100%;
