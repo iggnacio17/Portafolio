@@ -31,6 +31,8 @@ body {
   font-family: 'Minecraftia', sans-serif;
   color: yellow;
   text-shadow: 2px 2px #000000;
+  rotate: z -12deg;
+  transform: translateY(-100px);
 }
 
 .overlay {
