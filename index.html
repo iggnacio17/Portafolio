@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minecraft Menu</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/minecraftia" type="text/css"/>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+<body>
+  <div id="model-container"></div>
+
+  <section id="arriba-Section" class="project-up">
+    <div class="overlay">
+      <div class="menu">
+        <img src="https://images.icon-icons.com/2699/PNG/512/minecraft_logo_icon_168099.png" alt="Minecraft Logo" class="logo" />
+        <h3 class="profesion_Nombre">jugador</h3>
+        <div class="buttons">
+          <button onclick="playGame()" class="minecraft-btn">Gabriel Astudillo Martinez</button>
+          <button onclick="openOptions()" class="minecraft-btn">Opciones</button>
+          <button onclick="exitGame()" class="minecraft-btn">Salir</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="project-section" class="project-list">
+    <h2 class="section-title">Tus Mundos</h2>
+    <div class="projects-container">
+      <div class="project">
+        <img src="images/image2.png" alt="Proyecto 1">
+        <h3>Cortometraje - Entrando a Minecraft</h3>
+        <button onclick="viewDescription('desc1')">Ver Descripción</button>
+        <p id="desc1" class="project-desc">En este Cortometraje vemos un joven viajando al mundo de Minecraft.</p>
+      </div>
+      <div class="project">
+        <img src="images/image1.png" alt="Proyecto 2">
+        <h3>Where'I leave it, aunt?</h3>
+        <button onclick="viewDescription('desc2')">Ver Descripción</button>
+        <p id="desc2" class="project-desc">Este es un proyecto de videojuego móbil donde debemos realizar fletes a pedidos.</p>
+      </div>
+      <div class="project">
+        <img src="images/image3.png" alt="Proyecto 3">
+        <h3>Les Saucisses</h3>
+        <button onclick="viewDescription('desc3')">Ver Descripción</button>
+        <p id="desc3" class="project-desc">Les saucisses es un juego multijugador desarrollado en Unity con Photon - Pun 2.</p>
+      </div>
+    </div>
+    <button onclick="subirGame()" class="btn_arriba">Subir</button>
+  </section>
+
+  <div class="perfil-usuario">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTJOxWh-QirKWXBNhjtnpR8ChEzi4K0X5nHA&s" alt="Tu foto" class="foto-perfil">
+    <h4 class="nombre-perfil">Gabriel Astudillo</h4>
+    <p class="descripcion-perfil">Desarrollador apasionado por los videojuegos y experiencias interactivas.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
