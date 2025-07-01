@@ -6,12 +6,8 @@
   <title>Minecraft Menu</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/minecraftia" type="text/css"/>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/examples/js/loaders/GLTFLoader.js"></script>
 </head>
 <body>
-  <div id="model-container"></div>
-
   <section id="arriba-Section" class="project-up">
     <div class="overlay">
       <div class="menu">
@@ -27,7 +23,7 @@
   </section>
 
   <section id="project-section" class="project-list">
-    <h2 class="section-title">Mis Proyectos</h2>
+    <h2 class="section-title">Tus Mundos</h2>
     <div class="projects-container">
       <div class="project">
         <img src="images/image2.png" alt="Proyecto 1">
@@ -48,15 +44,21 @@
         <p id="desc3" class="project-desc">Les saucisses es un juego multijugador desarrollado en Unity con Photon - Pun 2.</p>
       </div>
     </div>
+  </section>
+  
+  <section class="contacto-section">
+    <h2 class="section-title">Contacto</h2>
+    <p class="contact-item">Email: gabriel.astudillo.martinez@gmail.com</p>
+    <p class="contact-item">Número: +123 4567 8901</p>
     <button onclick="subirGame()" class="btn_arriba">Subir</button>
   </section>
-
+  
   <div class="perfil-usuario">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTJOxWh-QirKWXBNhjtnpR8ChEzi4K0X5nHA&s" alt="Tu foto" class="foto-perfil">
     <h4 class="nombre-perfil">Gabriel Astudillo</h4>
     <p class="descripcion-perfil">Desarrollador apasionado por los videojuegos y experiencias interactivas.</p>
   </div>
-
+  
   <script src="script.js"></script>
 </body>
 </html>
